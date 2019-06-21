@@ -17,6 +17,7 @@ from .learn_nse import LearnNSE
 from .accuracy_weighted_ensemble import AccuracyWeightedEnsemble
 from .dynamic_weighted_majority import DynamicWeightedMajority
 from .additive_expert_ensemble import AdditiveExpertEnsemble
+from .hoeffding_ensemble import HoeffdingEnsembleClassifier
 from .online_boosting import OnlineBoosting
 from .online_adac2 import OnlineAdaC2
 from .online_csb2 import OnlineCSB2
@@ -28,5 +29,5 @@ from .online_smote_bagging import OnlineSMOTEBagging
 __all__ = ["AdaptiveRandomForest", "BatchIncremental", "LeverageBagging", "OzaBagging", "OzaBaggingAdwin",
            "ClassifierChain", "ProbabilisticClassifierChain", "MonteCarloClassifierChain",
            "RegressorChain", "MultiOutputLearner", "LearnPP", "LearnNSE", "AccuracyWeightedEnsemble",
-           "DynamicWeightedMajority", "AdditiveExpertEnsemble", "OnlineSMOTEBagging",
+           "DynamicWeightedMajority", "AdditiveExpertEnsemble", "HoeffdingEnsembleClassifier", "OnlineSMOTEBagging",
            "OnlineRUSBoost", "OnlineCSB2", "OnlineAdaC2", "OnlineUnderOverBagging", "OnlineBoosting"]
